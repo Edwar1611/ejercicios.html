@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width,inicio=1.0">
+        <title>estructura semantica</title>
+        <style>
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            nav ul {
+                list-style: armenian;
+                padding: 0cap;
+                margin: auto;
+            }
+            nav ul li{
+                display: block;
+                margin-right: 20px;
+            }
+            nav a{
+                color: #fff;
+                text-decoration: double;
+            }
+            main {
+                display: flex;
+                flex-direction: initial;
+                padding: 20px;
+            }
+            section {
+                background-color: rgb(6, 71, 71);
+                flex-basis: 70%;
+                padding: 20px;
+            }
+            aside {
+                flex-basis: 30%;
+                padding: 20px;
+            }
+            article {
+                background-color: #f7f7f7;
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                box-shadow: #333;  
+            }
+            footer {
+                background-color: aqua;
+                color: #1f0c0c;
+                padding: 20px;
+                text-align: center; 
+                display: inline-table;
+                flex-direction: row;
+                justify-content: space-between;  
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Supercampeones Popayan Futboll Academy </h1>
+            <img src="image.png" style="width: 200px;height: 200px;"> 
+            <nav>
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#CategoriaJunior">Categoria Junior</a></li>
+                    <li><a href="#CategoriaAdolecentes">Categoria Adolecentes</a></li>
+                    <li><a href="#CategoriaAdultos">Categoria Adultos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+             <div style="flex-basis: 70%; padding: 20px; color: rgb(3, 24, 24);">
+            <section id="seccion-1">
+                <h2>Sección 1</h2>
+                <article>
+                    <h3>Popayan Futbol Academy</h3>
+                    <p>Academia de futbol "Popayan futbol academy" casadora de talentos, para todas las edades.</p>
+                </article>
+                <article>
+                    <h3>Categoria Junior</h3>
+                    <p>La categoria junior de la academia va desde los 6 años asta los 12 años.</p>
+                </article>
+            </section>
+            <section id="seccion-2">
+                <h2>Sección 2</h2>
+                <article>
+                    <h3>Categoria Adolecentes</h3>
+                    <p>La categoria de adolecentes es la mas grande y va desde los 13 a los 18 años.</p>
+                </article>
+                <article>
+                    <h3>Categoria Adultos</h3>
+                    <p>La categoria para adultos es grande y cuenta con buenos jugadores va de los 19 a los 30 años.</p>
+                </article>
+            </section>
+        </div>
+        <aside style="flex-basis: 30%; padding: 20px;">
+            <h2>La Mejor Academia De Futbol</h2>
+            <nav>
+            <ul>
+                <li><a href="#servicios">servicios</a></li>
+                <li><a href="#categorias">categorias</a></li>
+            </ul>
+            </nav>
+            <figure>
+                <img src="soccer.jpeg">
+                <figcaption>El futbol, El Mejor Deporte Del Mundo</figcaption>
+            </figure>
+        </aside> 
+        </main>
+           <footer>
+            <div>
+                <h3>Nuestra Academia</h3>
+                <p>Academia de futbol regional, caza talentos.</p>
+            </div>
+            <div>
+                <h3>Servicios</h3>
+                <p>servicios especializados, con los mejores instructores y tecnicos locales.</p>
+            </div>
+            <div>
+                <h3>Contactos</h3>
+                <P>Estamos hubicados en la vereda Siloe contactanos al cel.3137018561 </P>
+            </div>
+            <div>
+                <h3>Redes sociales</h3>
+                <p>facebook:"popayan futbol academy" WhatsApp: "3238394590" X :"@Popayanacademyfutboll.</p>
+            </div>
+           </footer>
+    </body>
+
+</html>

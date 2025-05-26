@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contenedores</title>
+    <style>
+        section{
+            width: 500px;
+            background-color: darkgreen;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin: 20px;
+            color: white;
+        }
+        .sectionp{
+            width: 300px;
+        }
+        nav{
+            background-color: black;
+            color: azure;
+        }
+        a{
+            color: azure;
+            text-decoration: none;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+    </head>
+    <body>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#nosotros">nosotros</a></li>
+                    <li><a href="#servicios">>servicios</a></li>
+                    <li><a href="">productos</a></li>
+                </ul>
+                    <ul>
+                        <li><a>desarrollo web</a></li>
+                        <li><a>desarrollo prototipos</a></li>
+                        <li><a>desarrollo javascript</a></li>
+                    </ul>
+                
+            </nav>
+        </div>
+        <section id="inicio">
+            <h2>inicio</h2>
+            <p>esta es la seccion inicio</p>
+        </section>
+        <section id="nosotros">
+            <h2>nosotros</h2>
+            <p>esta es la seccion nosotros</p>
+
+        </section>
+        <section id="servicios">
+           <h2>servicios</h2>
+           <p>esta es la seccion servicios</p>
+        </section>
+        <section id="productos">
+            <h2>productos</h2>
+            <p>esta es la seccion productos</p>
+            <section id="desarrolloweb" class="sectionproductos">
+                <h2>desarrollo web</h2>
+                <p>esta es la seccion desarrollo web</p>
+            </section>
+            <section id="desarrolloprototipos" class="sectionproductos">
+                <h2>desarrollo prototipos</h2>
+                <p> esta es la seccion prototipos </p>
+            </section>
+            <section id="desarrollojavascript" class="sectionproductos">
+                <h2>desarrollo javascript</h2>
+                <p>esta es la seccion desarrollo java script</p>
+            </section>
+        </section>
+    </body>
+</html>
